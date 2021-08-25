@@ -1,0 +1,23 @@
+div {
+  text-align: justify;
+}
+
+div:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  padding-bottom: 50px;
+}
+
+.coloured-section {
+  padding: 270px 50px;
+  background-color: #ff4c68;
+  color: #fff;
+}
